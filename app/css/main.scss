@@ -1,0 +1,326 @@
+$OpenSans: Open Sans, sans-serif;
+$colorActive: #ffc178;
+$colorPage: #5a6e79;
+
+body{
+	color: $colorPage;
+	font-size: 16px;
+    font-family: $OpenSans;
+    background: #f3f3f5;
+}
+body a{
+    color: $colorPage;
+}
+body a:hover{
+    color: $colorActive;
+    text-decoration: none;
+}
+html, body {
+ /* Убирает прокрутку по горизонтале, для мобильной версии */
+ //width: 100%;
+ //max-width: 100%;
+ //overflow-x: hidden;
+}
+input{
+    outline: none;
+}
+.header{
+    padding-top: 20px;
+}
+h1, .header-offer{
+    max-width: 555px;
+}
+h1{
+    font-size: 40px;
+    line-height: 50px;
+    color: $colorActive;
+}
+h2{
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.header-offer{
+    font-size: 18px;
+    line-height: 24px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.header nav, .footer nav, .registry{
+    width: 100%;
+}
+.header{
+    background: url("../img/bg/bg-header.png") center center no-repeat;
+    background-size: cover;
+}
+.header-offer-wrapper{
+    padding: 180px 0px 570px;
+}
+.btn{
+    border-radius: 45px;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    border: none;
+}
+.btn-small{
+    padding: 8px 20px;
+    background: #ffffff;
+    color: $colorActive;
+}
+.btn-small:hover{
+    color: $colorPage;
+    background: $colorActive;
+}
+.btn-big{
+    color: #fff;
+    padding: 20px 30px;
+    background: $colorActive;
+}
+.btn-big:hover{
+    background: #fff;
+    color: $colorActive;
+}
+.header .btn-big, .header-offer{
+    margin-top: 20px;
+}
+.registry{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registry a{
+    //padding: 5px;
+}
+.footer-form .form-group{
+    margin: 0px;
+    display: flex;
+}
+.footer-logo-text{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
+.footer-logo-wrapper{
+    display: flex;
+    align-items: flex-start;
+}
+.posts{ 
+    padding-bottom: 100px;
+}
+.posts-block{
+    border-radius: 8px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.posts-block-content{
+    padding: 25px 25px;
+    background: #ffffff;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.posts-block-img img{
+    display: block;
+    width: 100%;
+}
+.posts-block-title{
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+.posts-block-prev{
+    font-size: 12px;
+    margin-top: 15px;
+}
+.posts-block-link{
+    font-size: 14px;
+    margin-top: 35px;
+    display: block;
+}
+
+.footer a, .footer{
+    color: #969595;
+    font-size: 14px;
+}
+.footer-top{
+    padding: 65px 0px 90px;
+    background: #252c3a;
+}
+.footer-top li{
+    margin-bottom: 20px;
+}
+.footer-logo-wrapper{
+    color: #ffffff;
+}
+.footer-bottom{
+    background: #1d232e;
+    padding: 30px 0px;
+}
+.footer-caption, .footer-logo-wrapper{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.footer-logo{
+    display: flex;
+    align-items:  flex-start;
+}
+.footer-offer{
+    max-width: 90%;
+}
+.footer-caption, .footer-logo{
+    min-height: 80px;
+}
+.footer-logo-text span:first-child{
+    font-size: 28px;
+    font-weight: 900;
+}
+.footer-logo-text span:last-child{
+    font-size: 12px;
+    font-weight: 700;
+}
+.footer-logo-text{
+    padding-left: 10px;
+}
+.footer-bottom li a, .footer-bottom{
+    color: #616163;
+    padding: 10px;
+}
+.footer-form{
+    width: 100%;
+}
+.footer-form input{
+    min-height: 40px;
+    padding: 0px 10px;
+    border-radius: 0px;
+    border: 0px;
+    width: 100%;
+}
+.footer-form input[type="submit"]{
+    background: $colorActive;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: auto;
+}
+.footer-form input[type="submit"]:hover{
+    background: $colorPage;
+    color: $colorActive;
+    cursor: pointer;
+}
+
+//form-registration
+.registration{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+.form-registration input{
+    border: none;
+    border-bottom: 1px solid $colorPage;
+    margin-bottom: 40px;
+    min-height: 30px;
+    font-weight: 700;
+}
+.form-registration{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+    width: 500px;
+    min-width: 300px;
+}
+.form-title{
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+.btn.btn-form-registration{
+    background: #57c24d;
+    color: #ffffff;
+    min-height: 50px;
+    border: none;
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+.btn-form-registration:hover{
+    background: $colorActive;
+    color: $colorPage;
+}
+
+.header.header-page{
+    padding-bottom: 20px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #dedede;
+}
+
+
+.form-profile{
+    width: 100%;
+    box-shadow: none;
+}
+input[type="image"]{
+    max-width: 60px;
+    height: auto;
+    border: none;
+}
+//select{
+//	background: none;
+//    border: none;
+//}
+//label, p{
+//	margin: 0px !important;
+//	padding: 0px !important;
+//}
+//a, a:visited, a:focus, a:active, a:hover{
+//    outline:0 none !important;
+//}
+//a:hover{
+//	color: $color-red;
+//}
+//button:focus {
+//    outline: none;
+//}
+//button{
+//	outline:none;
+//	text-align: center !important;
+//}
+//input{
+//	border: none !important;
+//	outline: none !important;
+//	font-size: 14px !important;
+//    height: 50px !important;
+//    padding: 10px 15px !important;
+//    padding-left: 65px !important;
+//    color: #737373 !important;
+//    text-transform: uppercase;
+//}
+//::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+//  color: #737373 !important ;
+//  opacity:  0.8 !important  ;
+//}
+//::-moz-placeholder { /* Firefox 19+ */
+//  color: #737373 !important ;
+//  opacity:  0.8 !important  ;
+//}
+//:-ms-input-placeholder { /* IE 10+ */
+//  color: #737373 !important ;
+//  opacity:  0.8 !important  ;
+//}
+//:-moz-placeholder { /* Firefox 18- */
+//  color: #737373 !important ;
+//  opacity:  0.8 !important  ;
+//}
+//input[submit], input[button]{
+//	outline:none;
+//}
+//input[submit]:focus, input[button]:focus{
+//	outline:none;
+//}

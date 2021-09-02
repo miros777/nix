@@ -1,0 +1,467 @@
+@media (min-width: 1100px){
+	.container {
+		max-width: 1500px;
+		min-width: 1500px;
+		zoom: 0.65;
+	}
+}
+
+@media (min-width: 1300px){
+	.container {
+		max-width: 1500px;
+		min-width: 1500px;
+		zoom: 0.7;
+	}
+}
+
+@media (min-width: 1500px){
+	.container {
+		max-width: 1500px;
+		min-width: 1500px;
+		zoom: 0.85;
+	}
+}
+
+@media (min-width: 1600px){
+	.container {
+		max-width: 1500px;
+		min-width: 1500px;
+		zoom: 1;
+	}
+}
+
+@media (max-width: 1500px){
+	.reasons {
+		height: 425px;
+	}
+	.repairs{
+		margin-top: 160px;
+	}
+}
+
+@media (max-width: 1200px){
+
+	.ablosute-img {
+		position: relative;
+		top: 0px;
+		left: 0px;
+	}
+	.ablosute-img img{
+		margin: 0px auto;
+		margin-top: 60px;
+		display: block;
+	}
+	.ablosute-img:before {
+		left: 50%;
+		bottom: 0;
+		height: 245px;
+		width: 268px;
+		background: url(../img/icons/red-arrow.png) center center no-repeat;
+		background-size: cover;
+		margin-left: -91px;
+		top: -57px;
+		transform: rotate(164deg);
+	}
+	.go-diagnostic-map{
+		width: max-content;
+	}
+	.calc {
+		margin-top: 60px;
+	}
+}
+
+
+@media (max-width: 1100px){
+	.header-top-line {
+		min-height: 80px;
+	}
+	.header-form {
+		margin-top: 0;
+	}
+	.section-header-form{
+		margin-top: 30px;
+	}
+	.special-price-one {
+		min-height: 238px;
+	}
+	.calc-right-wrapper-icon{
+		display: none;
+	}
+	.tabs-form.nav-tabs .nav-item {
+		width: 100% !important;
+		margin-top: 30px;
+	}
+	.tabs-form.nav-tabs .nav-item:first-child {
+		margin-top: 0px;
+	}
+	.tabs-form, .calc-form {
+		padding-right: 0;
+	}
+	.calc-form .form-group {
+		width: 100% !important;
+	}
+	#accordion-price .card h5 button {
+		white-space: inherit;
+	}
+	.card-header {
+		min-height: 60px;
+		height: auto;
+	}
+	.reasons {
+		height: 520px;
+	}
+	.repairs{
+		margin-top: 260px;
+	}
+	.display-hidden{
+		display: none !important;
+	}
+	.footer{
+		margin-top: 40px;
+	}
+	.confidence-text-block {
+		max-width: 100%;
+	}
+}
+
+
+@media (max-width:996px){
+	.contact .wa-contact{
+		display: none;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	h1 br{
+		display: none;
+	}
+	h1 span{
+		display: block;
+	}
+	.header-adv-text {
+		font-size: 14px;
+		padding: 5px 12px;
+		margin-right: 15px;
+	}
+	.header-form.calc-form .form-group {
+		max-width: inherit;
+	}
+	.calc-form .form-group {
+		margin-top: 22px;
+	}
+	.title-big {
+		font-size: 38px;
+	}
+	.calc-right-wrapper .form-footer-contact-wrapper {
+		display: flex;
+		align-items: center;
+		margin-right: 10px;
+	}
+	.calc-right-wrapper .wa-contact {
+		flex-direction: row-reverse;
+	}
+	.calc-right-wrapper .form-footer-contact-wrapper span br{
+		display: none;
+	}
+	.problems-right-block {
+		height: auto;
+	}
+	h2 {
+		line-height: 40px;
+		font-size: 36px;
+	}
+	h2::after {
+		margin-top: 10px;
+	}
+	#accordion-price table tr td {
+    padding: 5px 30px;
+}
+#accordion-price table tr td {
+    line-height: 22px;
+}
+}
+
+@media (max-width:767px){
+
+	.brands-slider-one-img-wrapper {
+		width: 110px !important;
+		height: 98px;
+	}
+	.header-adv-text{
+		display: none;
+	}
+	h1{
+		text-align: center;
+		padding: 30px 0px 50px;
+	}
+	header {
+		min-height: 314px;
+	}
+	.section-header-form {
+		margin-top: -30px;
+	}
+	h2 {
+		position: relative;
+		line-height: 38px;
+		font-size: 28px;
+		text-align: center;
+	}
+	.special-price-one {
+		min-height: 138px;
+		text-align: center;
+	}
+	.special-price-one div:last-child:before {
+		margin: 0px auto 15px;
+	}
+	h2:after {
+		content: "";
+		display: block;
+		left: 0;
+		bottom: 0;
+		margin-bottom: 0px;
+		height: 3px;
+		width: 70px;
+		background-color: red;
+		font-size: 36px;
+		margin: 20px auto 10px;
+	}
+	.go-diagnostic-wrapper{
+		display: none;
+	}
+	.go-diagnostic-wrapper+.row{
+		display: none;
+	}
+	.confidence-bg {
+		text-align: center;
+	}
+	.footer{
+		margin-top: 60px
+	}
+	.calc .title-big+p{
+		display: none;
+	}
+	.title-big{
+		font-size: 22px;
+		position: relative;
+	}
+	.title-big:after{
+		content: "";
+		display: block;
+		left: 0;
+		bottom: 0;
+		height: 3px;
+		width: 70px;
+		background-color: red;
+		margin: 10px auto;
+	}
+	.header-form.calc-form .form-group:last-child{
+		display: none;
+	}
+	.confidence-text-block p {
+		font-size: 18px;
+	}
+	.confidence-text-title{
+		font-size: 24px;
+		line-height: 33px;
+	}
+	.confidence-text-block {
+		margin-right: 0;
+		width: 100%;
+		max-width: 100%;
+	}
+	.cont-fluid{
+		width: 100% !important;
+		padding: 0px !important;
+		max-width: 100% !important;
+	}
+	.confidence .confidence-bg {
+		border: none;
+		border-radius: 0px;
+		background: none;
+		padding: 0;
+		margin: 0px;
+	}
+	.ablosute-img {
+		top: 36px;
+	}
+	.header-form-desc{
+		margin: 25px 15px 0px;
+	}
+	.parallax-container-l, .parallax-container-r{
+		display: none;
+	}
+	table, tbody{
+		max-width: 100%;
+		min-width: 100%;
+		display: block;
+	}
+	#accordion-price table tr{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#accordion-price table tr td {
+		padding: 5px 10px;
+		font-size: 18px;
+		line-height: 18px;
+	}
+	#accordion-price table tr td:first-child {
+		max-width: 100%;
+		min-width: 100%;
+		display: block;
+	}
+	#accordion-price table tr td{
+		max-width: 50%;
+		min-width: 50%;
+		display: block;
+	}
+	#accordion-price .card h5 button {
+		font-size: 20px;
+	}
+	.problems-right-block {
+		height: auto;
+	}
+	.special-price {
+		margin: 60px 15px;
+	}
+	h1 {
+		font-size: 32px;
+		line-height: 39px;
+	}
+	.top-title {
+		text-align: center;
+	}
+	.top-adres, .top-tel {
+		margin: 0px auto;
+	}
+	#accordion-price .card h5 {
+		min-height: 60px;
+		height: auto;
+	}
+	#accordion-price .card h5 button {
+		line-height: 22px;
+	}
+	#accordion-price table tr:first-child {
+    display: none;
+
+}
+#accordion-price table tr td:first-child {
+    padding: 5px 10px;
+    font-weight: 600;
+}
+td.td-mobile {
+    display: block;
+    text-transform: lowercase;
+    font-size: 13px !important;
+    color: #afafaf;
+    padding: 0px 10px !important;
+}
+
+}
+
+@media (max-width:576px){
+	.repairs {
+		margin-top: 240px;
+	}
+	.header-form {
+		min-width: 320px;
+		width: 100%;
+	}
+	.confidence-bg {
+		padding: 25px 15px;
+	}
+	.repairs {
+		margin-top: 300px;
+	}
+	.header-form-desc, body p{
+		font-size: 16px !important; 
+	}
+	.confidence .title-big{
+		line-height: 38px;
+		font-size: 32px;
+	}   
+	body{
+		font-size: 18px !important;
+	}
+	.top-title, .top-tel{
+		text-align: center !important;
+	}
+	.problems-right-block ul{
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.problems-right-block{
+		padding: 20px;
+	}
+	.special-price-one div:first-child{
+		line-height: 20px;
+	}
+	#accordion-price table tr td:first-child {
+		font-weight: 600;
+	}
+}
+
+@media (max-width:470px){
+	.go-diagnostic-contact-phone {
+		font-size: 26px;
+	}
+	.header-form {
+		min-width: 260px;
+	}
+}
+
+@media (max-width:400px){
+	.top-title {
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.reasons-slider-one-wrapper {
+		width: 280px;
+		min-width: 280px;
+		height: 500px;
+	}
+	.reasons-slider-one-wrapper img{
+		width: 100%;
+	}
+	.reasons {
+		padding: 20px 0px 0px;
+	}
+}
+
+@media (max-width:370px){
+	.top-title {
+    font-size: 14px;
+    line-height: 41px;
+}
+.top-adres, .top-tel {
+    font-size: 14px;
+}
+.header-form-title {
+    font-size: 24px;
+    padding: 20px;
+}
+.ablosute-img img {
+    width: 100%;
+}
+.ablosute-img:before {
+    height: 218px;
+    width: 223px;
+}
+.go-diagnostic-contact-phone a {
+    font-size: 22px;
+}
+.tabs-form.nav-tabs .nav-item,
+.calc-form input {
+    min-width: 225px;
+}
+.tabs-form.nav-tabs .nav-item {
+    margin-top: 14px;
+}
+.confidence-bg {
+    padding: 25px 0px;
+}
+.brands-slider-one-img-wrapper {
+    width: 85px !important;
+    height: 80px;
+}
+}
+
